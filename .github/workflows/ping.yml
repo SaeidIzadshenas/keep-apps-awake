@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Ping Streamlit apps
         run: |
-          curl -L "https://coupled-coreshell-nanostructures-library-materials-sij.streamlit.app/"
-          curl -L "https://multilayer-sphere-app-jgss9lz64q8rqefm8xecfq.streamlit.app/"
-          curl -L "https://gold-disk-spectrum-app-sij-umk.streamlit.app/"
+          curl -L "coupled-coreshell-nanostructures-library-materials-sij.streamlit.app/"
+          curl -L "multilayer-sphere-app-jgss9lz64q8rqefm8xecfq.streamlit.app/"
+          curl -L "gold-disk-spectrum-app-sij-umk.streamlit.app/"
