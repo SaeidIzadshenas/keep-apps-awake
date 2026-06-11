@@ -1,0 +1,17 @@
+name: Keep Apps Awake
+
+on:
+  schedule:
+    - cron: "0 */5 * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Streamlit apps
+        run: |
+          curl -L "https://https://coupled-coreshell-nanostructures-library-materials-sij.streamlit.app/"
+          curl -L "https://https://multilayer-sphere-app-jgss9lz64q8rqefm8xecfq.streamlit.app/"
+          curl -L "https://gold-disk-spectrum-app-sij-umk.streamlit.app/"
