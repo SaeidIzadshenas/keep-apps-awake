@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Ping Streamlit apps
         run: |
-          curl -I -L --max-time 60 "https://coupled-coreshell-nanostructures-library-materials-sij.streamlit.app" || true
-          curl -I -L --max-time 60 "https://multilayer-sphere-app-jgss9lz64q8rqefm8xecfq.streamlit.app" || true
-          curl -I -L --max-time 60 "https://gold-disk-spectrum-app-sij-umk.streamlit.app" || true
+          curl -L --max-time 60 "https://coupled-coreshell-nanostructures-library-materials-sij.streamlit.app" || true
+          curl -L --max-time 60 "https://multilayer-sphere-app-jgss9lz64q8rqefm8xecfq.streamlit.app" || true
+          curl -L --max-time 60 "https://gold-disk-spectrum-app-sij-umk.streamlit.app" || true
